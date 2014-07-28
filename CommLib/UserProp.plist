@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>usrnm</key>
+	<string>Admin333</string>
+	<key>psw</key>
+	<string>admin</string>
+	<key>fName</key>
+	<string>Yogesh</string>
+	<key>lName</key>
+	<string>Kumar</string>
+	<key>email</key>
+	<string>yogesh_26@hotmail.com</string>
+	<key>cnum</key>
+	<string>+27823329697</string>
+	<key>baseServerURL</key>
+	<string>http://localhost/spc/Eventmation</string>
+	<key>loginType</key>
+	<string>Application</string>
+</dict>
+</plist>

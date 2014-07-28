@@ -14,6 +14,42 @@
 		8660DAD31945B8690030DEE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8660DAD21945B8690030DEE1 /* UIKit.framework */; };
 		8660DADD1945B8690030DEE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8660DADB1945B8690030DEE1 /* InfoPlist.strings */; };
 		8660DADF1945B8690030DEE1 /* CommLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8660DADE1945B8690030DEE1 /* CommLibTests.m */; };
+		8660DAFB1945BB6F0030DEE1 /* CustomViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8660DAE81945BB6F0030DEE1 /* CustomViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8660DAFC1945BB6F0030DEE1 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8660DAE91945BB6F0030DEE1 /* CustomViewController.m */; };
+		8660DAFD1945BB6F0030DEE1 /* FBDialogController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8660DAEA1945BB6F0030DEE1 /* FBDialogController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8660DAFE1945BB6F0030DEE1 /* FBDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8660DAEB1945BB6F0030DEE1 /* FBDialogController.m */; };
+		8660DAFF1945BB6F0030DEE1 /* FBDialogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8660DAEC1945BB6F0030DEE1 /* FBDialogController.xib */; };
+		8660DB001945BB6F0030DEE1 /* FBLoginUIViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8660DAED1945BB6F0030DEE1 /* FBLoginUIViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8660DB011945BB6F0030DEE1 /* FBLoginUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8660DAEE1945BB6F0030DEE1 /* FBLoginUIViewController.m */; };
+		8660DB021945BB6F0030DEE1 /* FBLoginUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8660DAEF1945BB6F0030DEE1 /* FBLoginUIViewController.xib */; };
+		8660DB031945BB6F0030DEE1 /* FBLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8660DAF01945BB6F0030DEE1 /* FBLoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8660DB041945BB6F0030DEE1 /* FBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8660DAF11945BB6F0030DEE1 /* FBLoginViewController.m */; };
+		8660DB051945BB6F0030DEE1 /* FBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8660DAF21945BB6F0030DEE1 /* FBLoginViewController.xib */; };
+		8660DB061945BB6F0030DEE1 /* HomeViewControlleriPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = 8660DAF31945BB6F0030DEE1 /* HomeViewControlleriPhone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8660DB071945BB6F0030DEE1 /* HomeViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8660DAF41945BB6F0030DEE1 /* HomeViewControlleriPhone.m */; };
+		8660DB081945BB6F0030DEE1 /* HomeViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8660DAF51945BB6F0030DEE1 /* HomeViewControlleriPhone.xib */; };
+		8660DB091945BB6F0030DEE1 /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8660DAF61945BB6F0030DEE1 /* LoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8660DB0A1945BB6F0030DEE1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8660DAF71945BB6F0030DEE1 /* LoginViewController.m */; };
+		8660DB0B1945BB6F0030DEE1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8660DAF81945BB6F0030DEE1 /* LoginViewController.xib */; };
+		8660DB0C1945BB6F0030DEE1 /* LoginViewDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8660DAF91945BB6F0030DEE1 /* LoginViewDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8660DB0D1945BB6F0030DEE1 /* UserProp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8660DAFA1945BB6F0030DEE1 /* UserProp.plist */; };
+		8660DB0F1945BC550030DEE1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8660DB0E1945BC550030DEE1 /* FacebookSDK.framework */; };
+		867539571945C0D80081365F /* LoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = 867539451945C0D80081365F /* LoginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		867539581945C0D80081365F /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 867539461945C0D80081365F /* LoginView.m */; };
+		867539591945C0D80081365F /* LoginViewControllerEx.h in Headers */ = {isa = PBXBuildFile; fileRef = 867539471945C0D80081365F /* LoginViewControllerEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8675395A1945C0D80081365F /* LoginViewControllerEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 867539481945C0D80081365F /* LoginViewControllerEx.m */; };
+		8675395B1945C0D80081365F /* LoginViewControllerEx.xib in Resources */ = {isa = PBXBuildFile; fileRef = 867539491945C0D80081365F /* LoginViewControllerEx.xib */; };
+		8675395C1945C0D80081365F /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 8675394A1945C0D80081365F /* Reachability.h */; };
+		8675395D1945C0D80081365F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8675394B1945C0D80081365F /* Reachability.m */; };
+		8675395E1945C0D80081365F /* RegistrationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8675394C1945C0D80081365F /* RegistrationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8675395F1945C0D80081365F /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8675394D1945C0D80081365F /* RegistrationViewController.m */; };
+		867539601945C0D80081365F /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8675394E1945C0D80081365F /* RegistrationViewController.xib */; };
+		867539611945C0D80081365F /* ServiceCaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 8675394F1945C0D80081365F /* ServiceCaller.h */; };
+		867539621945C0D80081365F /* ServiceCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 867539501945C0D80081365F /* ServiceCaller.m */; };
+		867539631945C0D80081365F /* StateObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 867539511945C0D80081365F /* StateObject.h */; };
+		867539641945C0D80081365F /* StateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 867539521945C0D80081365F /* StateObject.m */; };
+		867539651945C0D80081365F /* UserCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 867539531945C0D80081365F /* UserCredentials.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		867539661945C0D80081365F /* UserCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 867539541945C0D80081365F /* UserCredentials.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +80,42 @@
 		8660DADA1945B8690030DEE1 /* CommLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CommLibTests-Info.plist"; sourceTree = "<group>"; };
 		8660DADC1945B8690030DEE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8660DADE1945B8690030DEE1 /* CommLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommLibTests.m; sourceTree = "<group>"; };
+		8660DAE81945BB6F0030DEE1 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		8660DAE91945BB6F0030DEE1 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		8660DAEA1945BB6F0030DEE1 /* FBDialogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialogController.h; sourceTree = "<group>"; };
+		8660DAEB1945BB6F0030DEE1 /* FBDialogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialogController.m; sourceTree = "<group>"; };
+		8660DAEC1945BB6F0030DEE1 /* FBDialogController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBDialogController.xib; sourceTree = "<group>"; };
+		8660DAED1945BB6F0030DEE1 /* FBLoginUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginUIViewController.h; sourceTree = "<group>"; };
+		8660DAEE1945BB6F0030DEE1 /* FBLoginUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginUIViewController.m; sourceTree = "<group>"; };
+		8660DAEF1945BB6F0030DEE1 /* FBLoginUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBLoginUIViewController.xib; sourceTree = "<group>"; };
+		8660DAF01945BB6F0030DEE1 /* FBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginViewController.h; sourceTree = "<group>"; };
+		8660DAF11945BB6F0030DEE1 /* FBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginViewController.m; sourceTree = "<group>"; };
+		8660DAF21945BB6F0030DEE1 /* FBLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBLoginViewController.xib; sourceTree = "<group>"; };
+		8660DAF31945BB6F0030DEE1 /* HomeViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewControlleriPhone.h; sourceTree = "<group>"; };
+		8660DAF41945BB6F0030DEE1 /* HomeViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewControlleriPhone.m; sourceTree = "<group>"; };
+		8660DAF51945BB6F0030DEE1 /* HomeViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewControlleriPhone.xib; sourceTree = "<group>"; };
+		8660DAF61945BB6F0030DEE1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8660DAF71945BB6F0030DEE1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8660DAF81945BB6F0030DEE1 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8660DAF91945BB6F0030DEE1 /* LoginViewDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewDefines.h; sourceTree = "<group>"; };
+		8660DAFA1945BB6F0030DEE1 /* UserProp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserProp.plist; sourceTree = "<group>"; };
+		8660DB0E1945BC550030DEE1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../../../Downloads/ios-howtos-master/FacebookSDK.framework"; sourceTree = "<group>"; };
+		867539451945C0D80081365F /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		867539461945C0D80081365F /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		867539471945C0D80081365F /* LoginViewControllerEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewControllerEx.h; sourceTree = "<group>"; };
+		867539481945C0D80081365F /* LoginViewControllerEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewControllerEx.m; sourceTree = "<group>"; };
+		867539491945C0D80081365F /* LoginViewControllerEx.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewControllerEx.xib; sourceTree = "<group>"; };
+		8675394A1945C0D80081365F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8675394B1945C0D80081365F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8675394C1945C0D80081365F /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		8675394D1945C0D80081365F /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		8675394E1945C0D80081365F /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		8675394F1945C0D80081365F /* ServiceCaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceCaller.h; sourceTree = "<group>"; };
+		867539501945C0D80081365F /* ServiceCaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceCaller.m; sourceTree = "<group>"; };
+		867539511945C0D80081365F /* StateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateObject.h; sourceTree = "<group>"; };
+		867539521945C0D80081365F /* StateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateObject.m; sourceTree = "<group>"; };
+		867539531945C0D80081365F /* UserCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCredentials.h; sourceTree = "<group>"; };
+		867539541945C0D80081365F /* UserCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCredentials.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8660DB0F1945BC550030DEE1 /* FacebookSDK.framework in Frameworks */,
 				8660DAC11945B8690030DEE1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +154,7 @@
 		8660DABF1945B8690030DEE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8660DB0E1945BC550030DEE1 /* FacebookSDK.framework */,
 				8660DAC01945B8690030DEE1 /* Foundation.framework */,
 				8660DACF1945B8690030DEE1 /* XCTest.framework */,
 				8660DAD21945B8690030DEE1 /* UIKit.framework */,
@@ -91,6 +165,41 @@
 		8660DAC21945B8690030DEE1 /* CommLib */ = {
 			isa = PBXGroup;
 			children = (
+				867539451945C0D80081365F /* LoginView.h */,
+				867539461945C0D80081365F /* LoginView.m */,
+				867539471945C0D80081365F /* LoginViewControllerEx.h */,
+				867539481945C0D80081365F /* LoginViewControllerEx.m */,
+				867539491945C0D80081365F /* LoginViewControllerEx.xib */,
+				8675394A1945C0D80081365F /* Reachability.h */,
+				8675394B1945C0D80081365F /* Reachability.m */,
+				8675394C1945C0D80081365F /* RegistrationViewController.h */,
+				8675394D1945C0D80081365F /* RegistrationViewController.m */,
+				8675394E1945C0D80081365F /* RegistrationViewController.xib */,
+				8675394F1945C0D80081365F /* ServiceCaller.h */,
+				867539501945C0D80081365F /* ServiceCaller.m */,
+				867539511945C0D80081365F /* StateObject.h */,
+				867539521945C0D80081365F /* StateObject.m */,
+				867539531945C0D80081365F /* UserCredentials.h */,
+				867539541945C0D80081365F /* UserCredentials.m */,
+				8660DAE81945BB6F0030DEE1 /* CustomViewController.h */,
+				8660DAE91945BB6F0030DEE1 /* CustomViewController.m */,
+				8660DAEA1945BB6F0030DEE1 /* FBDialogController.h */,
+				8660DAEB1945BB6F0030DEE1 /* FBDialogController.m */,
+				8660DAEC1945BB6F0030DEE1 /* FBDialogController.xib */,
+				8660DAED1945BB6F0030DEE1 /* FBLoginUIViewController.h */,
+				8660DAEE1945BB6F0030DEE1 /* FBLoginUIViewController.m */,
+				8660DAEF1945BB6F0030DEE1 /* FBLoginUIViewController.xib */,
+				8660DAF01945BB6F0030DEE1 /* FBLoginViewController.h */,
+				8660DAF11945BB6F0030DEE1 /* FBLoginViewController.m */,
+				8660DAF21945BB6F0030DEE1 /* FBLoginViewController.xib */,
+				8660DAF31945BB6F0030DEE1 /* HomeViewControlleriPhone.h */,
+				8660DAF41945BB6F0030DEE1 /* HomeViewControlleriPhone.m */,
+				8660DAF51945BB6F0030DEE1 /* HomeViewControlleriPhone.xib */,
+				8660DAF61945BB6F0030DEE1 /* LoginViewController.h */,
+				8660DAF71945BB6F0030DEE1 /* LoginViewController.m */,
+				8660DAF81945BB6F0030DEE1 /* LoginViewController.xib */,
+				8660DAF91945BB6F0030DEE1 /* LoginViewDefines.h */,
+				8660DAFA1945BB6F0030DEE1 /* UserProp.plist */,
 				8660DAC31945B8690030DEE1 /* Supporting Files */,
 			);
 			path = CommLib;
@@ -139,6 +248,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8660DB061945BB6F0030DEE1 /* HomeViewControlleriPhone.h in Headers */,
+				8660DB001945BB6F0030DEE1 /* FBLoginUIViewController.h in Headers */,
+				8660DB031945BB6F0030DEE1 /* FBLoginViewController.h in Headers */,
+				8675395E1945C0D80081365F /* RegistrationViewController.h in Headers */,
+				867539571945C0D80081365F /* LoginView.h in Headers */,
+				867539591945C0D80081365F /* LoginViewControllerEx.h in Headers */,
+				867539651945C0D80081365F /* UserCredentials.h in Headers */,
+				8660DAFD1945BB6F0030DEE1 /* FBDialogController.h in Headers */,
+				8675395C1945C0D80081365F /* Reachability.h in Headers */,
+				8660DAFB1945BB6F0030DEE1 /* CustomViewController.h in Headers */,
+				8660DB0C1945BB6F0030DEE1 /* LoginViewDefines.h in Headers */,
+				867539631945C0D80081365F /* StateObject.h in Headers */,
+				867539611945C0D80081365F /* ServiceCaller.h in Headers */,
+				8660DB091945BB6F0030DEE1 /* LoginViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +339,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8660DB081945BB6F0030DEE1 /* HomeViewControlleriPhone.xib in Resources */,
 				8660DAC71945B8690030DEE1 /* InfoPlist.strings in Resources */,
+				8660DB0B1945BB6F0030DEE1 /* LoginViewController.xib in Resources */,
+				867539601945C0D80081365F /* RegistrationViewController.xib in Resources */,
+				8660DB021945BB6F0030DEE1 /* FBLoginUIViewController.xib in Resources */,
+				8660DB0D1945BB6F0030DEE1 /* UserProp.plist in Resources */,
+				8660DB051945BB6F0030DEE1 /* FBLoginViewController.xib in Resources */,
+				8660DAFF1945BB6F0030DEE1 /* FBDialogController.xib in Resources */,
+				8675395B1945C0D80081365F /* LoginViewControllerEx.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +408,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8660DB071945BB6F0030DEE1 /* HomeViewControlleriPhone.m in Sources */,
+				8660DB011945BB6F0030DEE1 /* FBLoginUIViewController.m in Sources */,
+				8675395A1945C0D80081365F /* LoginViewControllerEx.m in Sources */,
+				867539661945C0D80081365F /* UserCredentials.m in Sources */,
+				8675395F1945C0D80081365F /* RegistrationViewController.m in Sources */,
+				867539581945C0D80081365F /* LoginView.m in Sources */,
+				8675395D1945C0D80081365F /* Reachability.m in Sources */,
+				8660DB0A1945BB6F0030DEE1 /* LoginViewController.m in Sources */,
+				8660DAFC1945BB6F0030DEE1 /* CustomViewController.m in Sources */,
+				8660DB041945BB6F0030DEE1 /* FBLoginViewController.m in Sources */,
+				867539641945C0D80081365F /* StateObject.m in Sources */,
+				867539621945C0D80081365F /* ServiceCaller.m in Sources */,
+				8660DAFE1945BB6F0030DEE1 /* FBDialogController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,16 +540,22 @@
 		8660DAE31945B8690030DEE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DEAD_CODE_STRIPPING = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/yogeshkumar/Downloads/ios-howtos-master",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CommLib/CommLib-Prefix.pch";
 				INFOPLIST_FILE = "CommLib/CommLib-Info.plist";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
@@ -415,16 +565,22 @@
 		8660DAE41945B8690030DEE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DEAD_CODE_STRIPPING = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/yogeshkumar/Downloads/ios-howtos-master",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CommLib/CommLib-Prefix.pch";
 				INFOPLIST_FILE = "CommLib/CommLib-Info.plist";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
@@ -488,6 +644,7 @@
 				8660DAE41945B8690030DEE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8660DAE51945B8690030DEE1 /* Build configuration list for PBXNativeTarget "CommLibTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +653,7 @@
 				8660DAE71945B8690030DEE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
